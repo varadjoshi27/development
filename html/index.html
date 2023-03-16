@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- heading tag -->
+   <h1>WELCOME TO DEVELOPMENT!!</h1>
+   <h2>WELCOME TO DEVELOPMENT!!</h2>
+   <h3>WELCOME TO DEVELOPMENT!!</h3>
+   <h4>WELCOME TO DEVELOPMENT!!</h4>
+   <h5>WELCOME TO DEVELOPMENT!!</h5>
+   <h6>WELCOME TO DEVELOPMENT!!</h6>
+  
+   <!-- paragraph tag -->
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae fugit, impedit accusantium optio reprehenderit perferendis exercitationem? Mollitia, rerum, maxime ad nostrum temporibus voluptas magni aliquam eos laudantium, illum sint?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae fugit, impedit accusantium optio reprehenderit perferendis exercitationem? Mollitia, rerum, maxime ad nostrum temporibus voluptas magni aliquam eos laudantium, illum sint?</p>
+   <!-- since this has inline styling this will orerride and have its own color mentioned here -->
+   <p style="color: chartreuse;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae fugit, impedit accusantium optio reprehenderit perferendis exercitationem? Mollitia, rerum, maxime ad nostrum temporibus voluptas magni aliquam eos laudantium, illum sint?</p>
+  
+   <!-- div tag- it is a container which can contain all other tags saperately -->
+    <div>
+        <h1>div1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae fugit, impedit accusantium optio reprehenderit perferendis exercitationem? Mollitia, rerum, maxime ad nostrum temporibus voluptas magni aliquam eos laudantium, illum sint?</p>
+
+    </div>
+    <div>
+        <h1>div2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae fugit, impedit accusantium optio reprehenderit perferendis exercitationem? Mollitia, rerum, maxime ad nostrum temporibus voluptas magni aliquam eos laudantium, illum sint?</p>
+
+    </div>
+
+    <!-- list tag is denoted by <li>content</li>  this tag is wrapped by ordered or unordered tags default is unordered-->
+    <li>lost</li>
+    <li>found</li>
+    <li>given</li>
+
+        <!-- unordered list is denoted by <ul></ul>-->
+        <h3>unordered list</h3>
+        <ul>
+            <li>onion</li>       
+            <li>tomato</li>       
+            <li>cheese</li>       
+        </ul>
+        
+        <!-- ordered list  is denoted by <ol><ol/> -->
+        <h3>ordered list</h3>
+        <ol>
+            <li>onion</li>       
+            <li>tomato</li>       
+            <li>cheese</li>       
+        </ol>
+
+    <!-- span tag (inline styling)--wrapped around text(word or a group to style it saperately)span is evaluated top to bottom -->
+    <p><span style="color: brown;background-color: aqua;"> the <span style="color: rgb(241, 11, 11);font-family: fantasy;">ashes</span> of his fathers and the <span style="color: goldenrod;font-style: italic;">temples</span> of his gods</span></p>
+    
+    <!-- anchor tag used to redirect to another page it has link of that page which is basically another html file  -->
+        <!-- this will open u tube on the same page -->
+    <a href="https://www.youtube.com/"><span style="color: red;font-style: oblique;font-size: 90px;">to youtube on same tab</span> </a>
+    <br> 
+        <!-- this will open u tube in the next tab using "blank" -->
+    <a href="https://www.youtube.com/" target="_blank"><span style="color: red;font-style: oblique;font-size: 90px;">to youtube with next tab</span> </a>
+    <!--br tag used to break line -->
+    <br>
+    <a href="abc.html"><span style="color: red;font-style: oblique;font-size: 90px;">click krna jara</span> </a> 
+        <br>
+    <!-- image tag -->
+    <img src="rezang_la.jpg" alt="Ultimate sacrifice">
+
+    <!-- creating table -->
+    <table border="20" style="color: maroon;">
+        <tr> <th>Name</th><th>year</th><th>place of battle</th>       </tr>
+        <tr> <td>Karam Singh</td><td>1947</td><td>richmaar gali </td> </tr>
+        <tr> <td>Shaitaan Singh</td><td>1962</td><td>rezang la</td>   </tr>
+        <tr> <td>Arun Khetrepal</td><td>1971</td><td>basantar</td>    </tr>
+    </table>
+    <table >
+        <thead><tr> <th>__Name__</th><th>__year__</th><th>__place of battle__</th>       </tr></thead>
+        <tbody><tr> <td>Karam Singh</td><td>1947</td><td>richmaar gali </td> </tr>
+               <tr> <td>Shaitaan Singh</td><td>1962</td><td>rezang la</td>   </tr>
+               <tr> <td>Arun Khetrepal</td><td>1971</td><td>basantar</td>    </tr></tbody>
+    </table>
+    <table border="20">
+        <tc> <td>Name</td><td>Karam Singh</td><td>Shaitaan Singh</td><td>Arun Khetrepal</td>  </tc>
+
+    </table>
+    <br>
+    <table border="7">
+
+    <!-- caption is used to describe table     -->
+        <caption>time table for students</caption>
+        <thead><tr> <th> </th><th>1</th><th>2</th><th>3</th><th>4</th> </tr></thead>
+        <tbody><tr><th>Mon</th><td>Math</td><td>Science</td><td>Hindi</td><td>Eng</td></tr>
+               <tr><th>Tuesday</td><td>Math</td><td>Science</td><td>Hindi</td><td>Eng</td></tr>
+               <tr><th>Wednesday</td><td>Math</td><td>Science</td><td>Hindi</td><td>Eng</td></tr>
+        </tbody>
+    </table>
+
+    <!-- storng(makes text bold) , em(emphasise makes text tilted/iitalic) tags -->
+    <p><strong>Lorem ipsum dolor sit </strong>amet consectetur<em> adipisicing elit. </em>Porro veniam, corporis numquam facilis soluta eum magnam, 
+        voluptatum mollitia minima id et consequuntur fugit temporibus odio blanditiis molestias iusto cumque a!</p>
+    
+</body>
+
+</html>

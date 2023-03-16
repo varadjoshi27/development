@@ -1,0 +1,11 @@
+table{
+    color: darkgreen;
+    font-size:27px;
+}
+ul{
+    color: crimson;
+}
+ol{
+    color: darkmagenta;
+    font-family: fantasy;
+}
