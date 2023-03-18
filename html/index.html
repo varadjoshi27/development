@@ -109,6 +109,76 @@
     <p><strong>Lorem ipsum dolor sit </strong>amet consectetur<em> adipisicing elit. </em>Porro veniam, corporis numquam facilis soluta eum magnam, 
         voluptatum mollitia minima id et consequuntur fugit temporibus odio blanditiis molestias iusto cumque a!</p>
     
+    <!-- understanding col and row span -->
+    <table border="7">
+        <tr >
+            <th colspan="2">Animals</th> 
+            <th>Animals</th>  ****this needs to be commented else it will occupy additional column
+        </tr>
+        <tr >
+            <th colspan="2">Hippopotamus</th>
+             <!-- <th>Hippopatamus</th>****this needs to be commented else it will occupy additional column -->
+        </tr>
+        <tr>
+            <th rowspan="2">Horse</th>
+             <th>Mare</th>
+        </tr>
+        <tr>
+            <!-- <th>Horse</th> ****this needs to be commented else it will occupy next column of same row -->
+            <th>Stallion</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Chicken</th>
+             <th>Hen</th>
+        </tr>
+        <tr>
+            <!-- <th>Chicken</th> ****this needs to be commented else it will occupy next column of same row   -->
+            <th>Rooster</th>
+        </tr>
+        <tr>
+            <th colspan="2">Crocodile</th>
+             <th></th>
+        </tr>
+    </table>
+
+    <!-- second example -->
+    <table border="5">
+    <tr>
+        <th>Machinery</th>
+        <th colspan="2">Single</th>
+        <!-- <th></th> -->
+    </tr>
+    <tr>
+        <th rowspan="3">Raw</th>
+        <th colspan="2">Sugarcane</th>
+        <!-- <th></th> -->
+    </tr>
+    <tr>
+        <!-- <th>Raw</th> -->
+        <th colspan="2">Mint</th>
+        <!-- <th></th> -->
+    </tr>
+    <!-- <tr><th >Raw</th> -->
+        <th colspan="2">Lemon</th>
+        <!-- <th></th> -->
+    </tr>
+    <tr>
+        <th>Place</th>
+        <th colspan="2">To be found</th>
+        <!-- <th></th> -->
+    </tr>
+    <tr>
+        <th rowspan="2">Time</th>
+        <th>2</th>
+        <th>3</th>
+    </tr>
+    <tr>
+        <!-- <th>Time</th> -->
+        <th>4</th>
+        <th>5</th>
+    </tr>
+
+    </table>
 </body>
 
 </html>
