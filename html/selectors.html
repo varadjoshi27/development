@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Selelctors</title>
+    <style>
+        p{
+            color: goldenrod;
+        }
+        /* this will not affect the p inside div because of upper selection */
+        div{
+            color: blueviolet;
+        }
+        .blue{
+            color: blue;
+        }
+        .red{
+            color: red;
+        }
+        .blue.large{
+            font-size: 30px;
+        }
+        .red.cursuive{
+            font-style: italic;
+        }
+
+    </style>
 </head>
 <body>
+    <!-- element selectors -->
+    <h1>element selectors</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam iusto alias maiores eum facere in blanditiis itaque dolorum sunt commodi eligendi repellendus, ab officiis debitis cupiditate. Modi, mollitia placeat.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum debitis reprehenderit nam. Voluptatum consequatur neque tempora ducimus, veniam adipisci, provident ea est perspiciatis alias enim animi, at modi laborum veritatis.</p>
+    <div>
+        <h2> inside the div tag </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis consequuntur omnis culpa reiciendis mollitia consequatur doloremque dolor voluptatem nobis molestiae ipsa laudantium qui, corporis animi ducimus est, fugit autem voluptas?</p>
+    </div>
+    <!-- class selectors -->
+    <h1>Class Selectors</h1>
+    <p class="blue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ipsum. Minus iste dolorum tempore, laudantium consequuntur vitae? Facere commodi veniam itaque, excepturi sint, quibusdam rem alias sed ex numquam aspernatur.</p>
+    <p class="blue large">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate veniam nobis dignissimos ex quaerat quod deserunt. Laborum velit consectetur perferendis fuga? Vel hic assumenda modi accusamus natus, vitae inventore.</p>
+    <p class="red cursuive">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente error consequatur a soluta ipsa, necessitatibus labore cum atque corrupti deserunt aperiam nam quod aliquam quo sit consequuntur repudiandae quae.</p>
+    <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, eius reprehenderit facere minima ratione quidem assumenda, architecto odit amet necessitatibus illo illum maiores asperiores! Ipsa minus error sapiente nesciunt odit?</p>
     
 </body>
 </html>
