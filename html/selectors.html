@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Selelctors</title>
     <style>
+        /* universal */
+        *{
+            background-color: chartreuse;
+        }
+       /* id */
+        #unique{
+            color: black;
+            font-style: normal;
+        }
+        /* element */
         p{
             color: goldenrod;
         }
         /* this will not affect the p inside div because of upper selection */
-        div{
+         div{
             color: blueviolet;
         }
+        /* class */
         .blue{
             color: blue;
         }
@@ -26,9 +37,30 @@
             font-style: italic;
         }
 
+        /* grouping */
+        h3,a{
+            color: maroon;
+            font-style: italic;
+            background-color: burlywood;
+        } 
+        /* child */
+        div p span{
+            color:tomato
+        }
+         /* child */
+         div>p>span{
+            color: black;
+            font-style: italic;
+        } 
+     
+
+
+     
+
     </style>
 </head>
 <body>
+<!-- simple selector -->
     <!-- element selectors -->
     <h1>element selectors</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam iusto alias maiores eum facere in blanditiis itaque dolorum sunt commodi eligendi repellendus, ab officiis debitis cupiditate. Modi, mollitia placeat.</p>
@@ -43,6 +75,26 @@
     <p class="blue large">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum cupiditate veniam nobis dignissimos ex quaerat quod deserunt. Laborum velit consectetur perferendis fuga? Vel hic assumenda modi accusamus natus, vitae inventore.</p>
     <p class="red cursuive">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente error consequatur a soluta ipsa, necessitatibus labore cum atque corrupti deserunt aperiam nam quod aliquam quo sit consequuntur repudiandae quae.</p>
     <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, eius reprehenderit facere minima ratione quidem assumenda, architecto odit amet necessitatibus illo illum maiores asperiores! Ipsa minus error sapiente nesciunt odit?</p>
-    
+    <!-- id selector -->
+    <p class="red cursuive" id="unique" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa aliquid temporibus alias mollitia velit rerum, facilis odio sunt ut repellendus consectetur itaque blanditiis totam quam maxime suscipit voluptate, modi dolore.</p>
+    <!-- grouping selectors -->
+    <h1>grouping selectors</h1>
+    <h3>go to youtube</h3>
+    <a href="https://www.youtube.com/" target="_blank">go to youtube</a>
+    <h3>these are styled using grouping selectors</h3>
+
+<!-- combinator selector (selects combination or sequenced nesting of tags)    -->
+    <!-- child selector -->
+    <div>
+        <p><span>I am a direct child should be black and small and italic</span></p>
+    </div>
+    <!-- descendant selector -->
+    <div>
+        <h1>
+            <p>
+                <span>I am an indirect child</span>
+            </p>
+        </h1>
+    </div>
 </body>
 </html>
