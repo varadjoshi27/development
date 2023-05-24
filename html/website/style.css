@@ -1,0 +1,24 @@
+li{
+    list-style: none;
+}
+.table>img{
+height: 300px;
+width: 700ox;
+}
+.footer{
+    background-color: black;
+    color: azure;
+    height: 80px;
+}
+.footer>p{
+    font-size: 25px;
+}
+/* contents of div do not get styled simply by styling div only  */
+.navbar>nav,ul{
+    display: flex;
+    justify-content: space-between;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}

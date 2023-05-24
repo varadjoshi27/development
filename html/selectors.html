@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Selelctors</title>
-    <style>
-        /* universal */
+    <!-- <style>
+        /* universal
         *{
             background-color: chartreuse;
         }
@@ -38,7 +38,7 @@
         }
 
         /* grouping */
-        h3,a{
+        h3{
             color: maroon;
             font-style: italic;
             background-color: burlywood;
@@ -52,14 +52,38 @@
             color: black;
             font-style: italic;
         } 
+        /* attribute selector */
+        a[target="_blank"]{
+        color:purple}
+        p[class="key value"]
+        {
+            color: black;
+        } */
+     
+        p:first-child{
+            color: blue;
+            background-color: black;
+        }
+
      
 
-
-     
-
+    </style> -->
+    <style>
+        p:first-child
+        {
+            color: blue;
+            background-color: black;
+        }
     </style>
+
 </head>
 <body>
+    <p>
+        <p>A</p>
+        <p>B</p>
+        <p>C</p>
+    </p>
+
 <!-- simple selector -->
     <!-- element selectors -->
     <h1>element selectors</h1>
@@ -95,6 +119,26 @@
                 <span>I am an indirect child</span>
             </p>
         </h1>
+    </div>
+    <!-- attribute selector -->
+    <a href="/html/slelctors_questions/1.html" target="_blank">1 </a>
+    <br>
+    <a href="/html/slelctors_questions/2.html">2 </a>
+    <br>
+    <a href="/html/slelctors_questions/3.html" target="_blank">3 </a>
+    <p class="key value">I am the key values with class</p>
+    
+    
+    <!-- first child selector -->
+    <div>
+        <p>one </p>
+        <p>two</p>
+        <p>three</p>
+    </div>
+    <div>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
     </div>
 </body>
 </html>
