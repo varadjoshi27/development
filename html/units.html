@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        html{
+        /* html{
             font-size: 30px;
             /* 1rem=30px */
-        }
+        
         .parent{
             font-size: 35px;
             /* 1em=35px */
@@ -30,6 +30,14 @@
         .rem{
             width: 10rem;
         }
+        /* difference bw em and rem */
+        .rems li{
+            font-size: 1.5rem;
+           /* 1.5*16px=24px  */
+        }
+        .ems li{
+            font-size: 1.5em;
+        }
     </style>
 </head>
 <body>
@@ -41,5 +49,39 @@
          </div>
         <div class="box rem">i am 10 rem wide</div> 
     </div>
+    <ul class="rems">
+     <li>
+        I 
+          <!-- 1.5*16px=24px  for all -->
+        <ul>
+         <li>
+            will
+            <ul>
+             <li>
+                not
+             </li>
+            </ul>
+         </li>
+        </ul>
+     </li>
+    </ul>
+    <ul class="ems">
+        <li>
+           abandon
+            <!-- 1.5*16px=24px    -->
+           <ul>
+            <li>
+               my 
+                <!-- 1.5*16px=24px*1.5=36px  -->
+               <ul>
+                <li>
+                    <!-- 1.5*16px=24px*1.5=36px*1.5=54px -->
+                   tank
+                </li>
+               </ul>
+            </li>
+           </ul>
+        </li>
+       </ul>
 </body>
 </html>
