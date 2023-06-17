@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 30px;
+            /* 1rem=30px */
+        }
+        .parent{
+            font-size: 35px;
+            /* 1em=35px */
+        }
+        .box{
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        .px{
+            width: 200px;
+        }
+        .vw{
+            width: 10vw;
+        }
+        .em{
+            width: 10em;
+        }
+        .rem{
+            width: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box px">i am 200 px wide</div>
+        <div class="box vw">i am 10 vw wide </div>
+         <div>
+        <div class="box em">i am 10 em wide</div>
+         </div>
+        <div class="box rem">i am 10 rem wide</div> 
+    </div>
+</body>
+</html>
