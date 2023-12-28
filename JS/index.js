@@ -1,31 +1,35 @@
 //Var
-var a=0;
-var b='J';
-var c="Varad";
-var d=null;
+// var a=0;
+// var a='J';
+let a="Varad";
+// var a=null;
+ console.log("outside block wala a -----"+a);
 
-//Let
-let l="let outside block";
-// this is allowed even if we change type-----> l=9
 
-//const 
-const Author="const variable---> Varad";
-console.log(Author);
+// let l="let outside block";
+//  l=188;
+// console.log(l)
+// // this is allowed even if we change type-----> l=9
+
+// //const 
+// const Author="const variable---> Varad";
+
+// console.log(Author);
 
 
 //block using a var changer var for entire code
-console.log(a);
+
 {
-    var a='k';
-    console.log(a);
+    let a='k';
+    console.log("inside block wala a= "+a);
 }
-console.log(a);
-//block using let both let are independent!!
-{
-    let l='let inside block';
-    console.log(l);
-}
-console.log(l);
+ console.log("outside block wala a -----"+a);
+// //block using let both let are independent!!
+// {
+//     let l='let inside block';
+//     console.log(l);
+// }
+// console.log(l);
 
 //-------------
 //problem with var and let
@@ -41,4 +45,4 @@ for(let lettt=0;lettt<10;lettt++)
 {
     console.log(lettt);
 }
-//console.log("let l is not usable after loop neds --->"+ lettt);
+console.log("let l is not usable after loop neds --->"+ lettt);

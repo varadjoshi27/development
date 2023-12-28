@@ -1,5 +1,2 @@
-
-}
-
-let ans=add(2,6);
-console.log(ans);
+var c="Varad";
+var d=null;
