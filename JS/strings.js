@@ -5,7 +5,7 @@ let myName='Varad joshi'
 
 //exxtraction methods do not make change in original array
 //slice
-    // console.log("sliced string is-->"+myName.slice(0,4))//start from first index and cut remove equal to second parameter
+    console.log("sliced string is-->"+myName.slice(0,4))
     //first index is inclusive and last index is exclusive this will print what is there on0 index and remove what is on 1 index, also no changes in original string
     // console.log("sliced string is-->"+myName.slice(0,5))
     // console.log("sliced string is-->"+myName.slice(2))//start from 2 and cut upto end

@@ -56,9 +56,10 @@ let arr=[1,2,3,'one','two','three']
     // // console.log(matrix[1][2]) 
     // let res=matrix[0]
     // console.table(res)
-    console.log(matrix.length)//gives number of rows in the matrix
-    console.log(matrix[1].length)
-    console.log(matrix[0].length)
+    // console.log(matrix.length)//gives number of rows in the matrix
+    // console.log(matrix[1].length)
+    // console.log(matrix[0].length)
 
-    matrix[0][0]='neww'
-    console.log(matrix[0][0])
+    // matrix[0][0]='neww'
+    // console.log(matrix[0][0])
+

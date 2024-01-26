@@ -1,0 +1,5 @@
+26/1/24
+1.global and window object(**when you run a js file on a browser)
+    .on execution gec is created and pushed on call stack
+    .window object is created in there and it has all functions(inbuilt and our defined) and variables of that code
+    .this points to window object so this is created at global level can be used to access all these things
