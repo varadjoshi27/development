@@ -33,6 +33,10 @@ let myName='Varad joshi'
     var trimmed="   var        ad"
     console.log(trimmed.length);
     console.log(trimmed.trim().length);
+
+//split
+let sentence="hello   there I have started"
+console.log(sentence.split(" "));    
     
 
 

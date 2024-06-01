@@ -670,10 +670,22 @@
 // console.log(city);
 
 //*****question 25
-const user = { name: 'Lydia', age: 21 };
-const admin = { admin: true, ...user };
+// const user = { name: 'Lydia', age: 21 };
+// const admin = { admin: true, ...user };
+// console.log(admin);
 
-console.log(admin);
+//scopes of let var and const
+let b=100;
+{
+    var a=10;//shadows outer a var is not block scopped
+    let b=20;//limited to this block
+    const c=30;//limited to this block
+    // console.log(a);
+    // console.log(b);
+    // console.log(c);
+}
+console.log(b);
+
 
 
 
